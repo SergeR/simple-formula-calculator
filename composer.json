@@ -1,0 +1,24 @@
+{
+  "name": "serger/simple-formula-calculator",
+  "type": "library",
+  "description": "Very simple formula calculator. Lightweight and with no dependencies",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Serge Rodovnichenko",
+      "email": "sergerod@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "SergeR\\SimpleFormula\\": "src"
+    }
+  },
+  "require-dev": {
+    "vimeo/psalm": "^5.9",
+    "phpunit/phpunit": "^9.6"
+  }
+}
